@@ -80,3 +80,9 @@ end)
 keymap.set("n", "<leader>h4", function()
   ui.nav_file(4)
 end)
+
+-- git signs
+local gs = require("gitsigns")
+keymap.set("n", "<leader>sb", function()
+  gs.toggle_current_line_blame()
+end)

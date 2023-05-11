@@ -57,6 +57,9 @@ keymap.set("n", "<leader>gs", "<cmd>Telescope git_status<cr>") -- list current c
 -- restart lsp server (not on youtube nvim video)
 keymap.set("n", "<leader>rs", ":LspRestart<CR>") -- mapping to restart lsp if necessary
 
+-- LazyGit
+keymap.set("n", "<leader>gg", ":LazyGit<CR>")
+
 -- harpoon
 local mark = require("harpoon.mark")
 local ui = require("harpoon.ui")

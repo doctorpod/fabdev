@@ -4,6 +4,9 @@ local opt = vim.opt -- for conciseness
 opt.relativenumber = false -- show relative line numbers
 opt.number = true -- shows absolute line number on cursor line (when relative number is on)
 
+-- Margins to encourage good line lengths
+opt.colorcolumn = { 80, 120 }
+
 -- tabs & indentation
 opt.tabstop = 2 -- 2 spaces for tabs (prettier default)
 opt.shiftwidth = 2 -- 2 spaces for indent width
